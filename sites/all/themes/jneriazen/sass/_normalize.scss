@@ -134,14 +134,27 @@ body {
  * The order of link states are based on Eric Meyer's article:
  * http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states
  */
+ 
+a{
+	color: gray;
+	text-decoration: none;
+	font-family: 'Lato';
+	font-weight: 300;
+}
+ 
 a:link {
+
 }
 a:visited {
+
 }
 a:hover,
 a:focus {
+	font-weight: 700;
+
 }
 a:active {
+	font-weight: 700;
 }
 
 /* Address `outline` inconsistency between Chrome and other browsers. */
