@@ -1,0 +1,138 @@
+p{
+	margin: .25em 0;
+	padding: 0;
+  color: #000000
+}
+
+#header{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+#navigation{
+
+}
+#main-menu{
+	float: right;
+}
+
+#splash{
+  background: #999 url("../images/header.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: scroll;
+  height: 420px;
+  margin: 0;  
+}
+
+.bio{
+  margin:12px;
+  height: 400px;
+  h2{
+    text-transform: capitalize;
+    color: white;
+  }
+  p{
+  	color: #000000;
+  }
+}
+
+div.item-list {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: scroll;
+    @extend .well;
+}
+
+.item-list ul li {
+    display: inline-block;
+    float: none;
+    height: 100%;
+}
+
+.item-list ul li[class*="first"] {
+    margin-left: 0;
+}
+
+.views-row{
+	@include clearfix();
+}
+
+.portfolio-card {
+	margin: 1%;
+	float: left;
+	width: 95%;
+	.views-field-title{
+		background-color: yellow;
+		text-align: center;	
+		font-size: 1.2em;
+		text-transform: uppercase;
+		color: gray;
+}
+}
+
+
+
+@media all and (min-width: 560px) {
+
+.portfolio-card {
+	float: left;
+	width: 45%;
+}
+
+.bio{
+  width: 50%;
+  float: right;
+  margin:12px;
+  height: 400px;
+  overflow: scroll;
+  h2{
+    text-transform: capitalize;
+    color: white;
+  }
+
+}
+
+
+
+
+@media all and (min-width: 860px) {
+
+.field-content > img {
+	text-align: center;
+	border-style: solid;
+	border-color: orange;
+}
+
+  .view-header{
+      width: 60%;
+      margin: 10px 10px 10px 25px;
+      clear: both;
+  }
+
+ .views-row > .views-field-field-image {
+  float: left; /* LTR */
+  width: 60%;
+  margin: 20px 40px 40px 40px;
+}
+
+ .project-detail-container{
+ 	width: 30%;
+	display: table;
+ 	float: left;
+ 	height: 500px;
+ }
+
+ .project-detail {
+  display: table-cell;
+  vertical-align: middle;
+ }
+ 
+ .portfolio-card {
+ 	float: left;
+ 	width: 30%;
+ }
+}
