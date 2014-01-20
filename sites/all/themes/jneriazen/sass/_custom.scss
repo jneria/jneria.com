@@ -21,15 +21,34 @@ h1,h2,h3,h4{
 #navigation{
 display: table;
 }
+
+
 #main-menu{
-display: table-cell;
-vertical-align: middle;
-/*	float: right;*/
+
+/*	background: url("../images/grid_bgd-0.5.png") repeat;*/
+	vertical-align: middle;
+	float: right;
+/*	border-bottom: 1px solid gray;*/
+	padding: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+
+	a{
+/*	color: #32CD32;*/
+	font-weight: 700;
+
+}
+
+	a:hover,
+	a:focus,
+	a:active{
+		font-weight: 300;
+		}
 }
 
 #splash{
   background: url("../images/header.jpg") left center / cover no-repeat scroll #999;
-	height: 434px;
+	height: 450px;
   margin: 0;
 /*  @include clearfix();*/
 
@@ -90,7 +109,7 @@ div.item-list {
 @media all and (min-width: 560px) {
 
 #splash{
-  background: #999 url("../images/header.jpg") no-repeat center center;
+  background: url("../images/header.jpg") center center / cover no-repeat scroll #999;
 }
 .portfolio-card {
 	float: left;
@@ -102,8 +121,8 @@ position: absolute;
 top: 0;
 	right: 10px;
   width: 50%;
-  padding: 75px 12px 12px;
-  height: 337px;
+  margin: 135px 12px 12px;
+  height: 270px;
   overflow: scroll;
 }
 }
