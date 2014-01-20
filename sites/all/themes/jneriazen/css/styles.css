@@ -4882,12 +4882,18 @@ h1, h2, h3, h4 {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\0000321}}
-#navigation {
-  display: table;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\0000320}}
+body.html.not-front #main {
+  margin-top: 50px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\0000324}}
+#navigation {
+  display: table;
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\0000330}}
 #main-menu {
   /*	background: url("../images/grid_bgd-0.5.png") repeat;*/
   vertical-align: middle;
@@ -4897,19 +4903,19 @@ h1, h2, h3, h4 {
   margin-right: 10px;
   margin-left: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\0000340}}
 #main-menu a {
   /*	color: #32CD32;*/
   font-weight: 700;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\0000348}}
 #main-menu a:hover,
 #main-menu a:focus,
 #main-menu a:active {
   font-weight: 300;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\0000353}}
 #splash {
   background: url("../images/header.jpg") left center/cover no-repeat scroll #999999;
   height: 450px;
@@ -4917,22 +4923,22 @@ h1, h2, h3, h4 {
   /*  @include clearfix();*/
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\0000362}}
 .bio {
   margin: 0;
   padding: 12px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\0000365}}
 .bio h2 {
   text-transform: capitalize;
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\0000369}}
 .bio p {
   color: #000000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\0000374}}
 div.item-list {
   margin: 0;
   padding: 0;
@@ -4941,14 +4947,14 @@ div.item-list {
   overflow-x: scroll;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\0000383}}
 .item-list ul li {
   display: inline-block;
   float: none;
   height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\0000389}}
 .item-list ul li[class*="first"] {
   margin-left: 0;
 }
@@ -4965,59 +4971,64 @@ div.item-list {
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\0000397}}
 .portfolio-card {
   margin: 1%;
   float: left;
   width: 95%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\00003103}}
 .portfolio-card .views-field-title {
   text-align: center;
   font-size: 1.2em;
   text-transform: uppercase;
-  color: gray;
+  margin-bottom: 5px;
+  margin-top: 20px;
 }
 
 @media all and (min-width: 560px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\00003118}}
   #splash {
     background: url("../images/header.jpg") center center/cover no-repeat scroll #999999;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\00003123}}
   .portfolio-card {
+    margin-top: 0;
     float: left;
     width: 45%;
+    height: 370px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\00003130}}
   .bio {
     position: absolute;
     top: 0;
     right: 10px;
     width: 50%;
+    max-width: 570px;
     margin: 135px 12px 12px;
     height: 270px;
     overflow: scroll;
+    overflow-y: scroll;
   }
 }
 @media all and (min-width: 860px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\00003147}}
   .field-content > img {
     text-align: center;
     border-style: solid;
     border-color: orange;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\00003153}}
   .view-header {
     width: 60%;
     margin: 10px 10px 10px 25px;
     clear: both;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\00003159}}
   .views-row > .views-field-field-image {
     float: left;
     /* LTR */
@@ -5025,24 +5036,25 @@ div.item-list {
     margin: 20px 40px 40px 40px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\00003165}}
   .project-detail-container {
     width: 30%;
     display: table;
     float: left;
-    height: 500px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\00003159}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\00003171}}
   .project-detail {
     display: table-cell;
     vertical-align: middle;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jneria\/Dropbox\/Sites\/jneria\.com\/drupal\/sites\/all\/themes\/jneriazen\/sass\/_custom\.scss}line{font-family:\00003176}}
   .portfolio-card {
+    margin-top: 0;
     float: left;
-    width: 30%;
+    width: 30.9%;
+    height: 350px;
   }
 }
 /* SMACSS theme rules */

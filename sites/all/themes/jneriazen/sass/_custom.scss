@@ -17,9 +17,13 @@ h1,h2,h3,h4{
   }
 }
 
+body.html.not-front #main{
+margin-top: 50px;
+}
 
 #navigation{
 display: table;
+clear: both;
 }
 
 
@@ -92,6 +96,7 @@ div.item-list {
 
 .portfolio-card {
 	margin: 1%;
+	
 	float: left;
 	width: 95%;
 	
@@ -99,7 +104,9 @@ div.item-list {
 		text-align: center;	
 		font-size: 1.2em;
 		text-transform: uppercase;
-		color: gray;
+		margin-bottom: 5px;
+		margin-top: 20px;
+		
 
 }
 }
@@ -111,9 +118,13 @@ div.item-list {
 #splash{
   background: url("../images/header.jpg") center center / cover no-repeat scroll #999;
 }
+
+
 .portfolio-card {
+	margin-top: 0;
 	float: left;
 	width: 45%;
+	height: 370px;
 }
 
 .bio{
@@ -121,9 +132,11 @@ position: absolute;
 top: 0;
 	right: 10px;
   width: 50%;
+  max-width: 570px;
   margin: 135px 12px 12px;
   height: 270px;
   overflow: scroll;
+  overflow-y: scroll;
 }
 }
 
@@ -153,7 +166,6 @@ top: 0;
  	width: 30%;
 	display: table;
  	float: left;
- 	height: 500px;
 }
 
 .project-detail {
@@ -162,7 +174,9 @@ top: 0;
 }
  
 .portfolio-card {
+	margin-top: 0;
  	float: left;
- 	width: 30%;
+ 	width: 30.9%;
+ 	height: 350px;
 }
 }
