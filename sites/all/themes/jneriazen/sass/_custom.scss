@@ -77,7 +77,6 @@ div.item-list {
     width: 100%;
     white-space: nowrap;
     overflow-x: scroll;
-    @extend .well;
 }
 
 .item-list ul li {
